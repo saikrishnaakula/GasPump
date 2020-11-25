@@ -189,8 +189,9 @@ public class TestDriver {
 			System.out.println("11. StartPump()");
 			System.out.println("12. PumpGallon()");
 			System.out.println("13. StopPump()");
+			System.out.println("14. FullTank()");
 			System.out.println("------------------------");
-			System.out.println("14. Quit GasPump2");
+			System.out.println("15. Quit GasPump2");
 			System.out.println("------------------------");
 
 			// Select the option as displayed above
@@ -287,8 +288,12 @@ public class TestDriver {
 					// call Stop() Method
 					gaspump.stop();
 					break;
-					
 				case 14:
+					System.out.println("\nMethod: FullTank()");
+					// call FullTank() Method
+					gaspump.stop();
+					break;	
+				case 15:
 					System.out.println("\nQuit from GasPump Driver.");
 					// Quit GasPump TestDriver
 					break;
@@ -300,7 +305,7 @@ public class TestDriver {
 			} catch (IOException e) {
 				System.out.println("Invalid input.");
 			}
-		} while (option != 14);
+		} while (option != 15);
 	}
 
 }
