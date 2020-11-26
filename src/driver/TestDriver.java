@@ -14,15 +14,10 @@ import gaspump.list.*;
 public class TestDriver {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-	// clear the screen
-	public static void clearScreen() {
-		System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-	}
-
 	public static void main(String[] args) {
-		System.out.println("\n\n\n\n\n\n\n\n								CS  586							");
-		System.out.println("								PROJECT							");
-		System.out.println("							 	  DEMO							");
+		System.out.println("\n\n\n\n\n\n\n\nCS  586");
+		System.out.println("GASPUMP PROJECT");
+		System.out.println("DEMO");
 
 		int input = 3;
 		do {
