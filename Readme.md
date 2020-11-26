@@ -1,5 +1,7 @@
 # Gaspump Project
 
+In this sample project i have implemented State Pattern, Abstract Factory Pattern, Strategy Pattern and MDA EFSM Pattern.
+
 ## Execution Steps
 
 ### Method 1
